@@ -5,12 +5,8 @@ A physical fitness RPG application that rewards users with a level up system.
 **Key Features**
 
 - User database
-
 - Personalized workout API
-
 - RPG game themed
-
-  ​
 
 **Tech Used**
 
