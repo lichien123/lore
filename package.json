@@ -1,0 +1,26 @@
+{
+  "name": "lore",
+  "version": "1.0.0",
+  "description": "A physical fitness RPG application that rewards its users with a level up system. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichien123/lore.git"
+  },
+  "author": "Maria Seneca, Taqwa Rushdan, Li Chien, Dan Yee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichien123/lore/issues"
+  },
+  "homepage": "https://github.com/lichien123/lore#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.36.1"
+  }
+}
