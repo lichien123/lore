@@ -1,5 +1,6 @@
 # Lore
 **Description**
+
 A physical fitness RPG application that rewards users with a level up system.
 
 **Key Features**
