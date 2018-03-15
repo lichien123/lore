@@ -1,7 +1,59 @@
 
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 70px;
+  color: white;
+}
+
+.lore-btn-txt {
+  font-family: 'Lekton', sans-serif;
+}
+
+p {
+  font-family: 'Lekton', sans-serif;
+}
+
+nav li {
+  font-family: 'Lekton', sans-serif;
+}
+
+.gradient {
+  height: 100%;
+  background-color: Aquamarine;
+  background-image:
+    linear-gradient(
+      to right,
+      Aquamarine,
+      Lavender 70%
+    );
+}
+
+.lore-header {
+  text-align: center;
+}
 
 .lore-card-content {
   padding: 1em;
+}
+
+.lore-dropdown-text {
+  padding: 5%;
+}
+
+.lore-dropdown-window {
+  margin-top: 2em;
+}
+
+.lore-dropdown-btn {
+  margin-left: 4.5em;
+}
+
+.lore-buffer {
+  height: 300px;
+}
+
+.lore-footer {
+  text-align: center;
 }
 
 /*====================================*/
@@ -26,6 +78,11 @@
   .lore-card-width {
     width: 13rem !important;
   }
+
+  .lore-dropdown-btn {
+    margin-left: 0;
+}
+
 }
 
 @media only screen and (min-width : 530px) and (max-width : 767px) {
@@ -51,7 +108,7 @@
 }
 
 @media only screen and (max-width : 464px) {
-  
+
   .lore-card-width {
     width: 100% !important;
   }

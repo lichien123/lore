@@ -9,6 +9,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
 
   <title>Lore</title>
 
@@ -27,22 +29,16 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-inverse navbar-static-top">
-      <a class="navbar-brand" href="#">Project name</a>
-      <ul class="nav nav-pills">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+        <li class="breadcrumb-item"><a href="#">About</a></li>
+        <li class="breadcrumb-item"><a href="#">Link</a></li>
+      </ol>
     </nav>
 
-    <div class="jumbotron">
+    <div class="jumbotron lore-header gradient">
       <div class="container">
         <h1>Lore</h1>
         <p> Physical fitness RPG application that rewards users with a level up system.</p>
@@ -57,7 +53,14 @@
           <div class="card-body lore-card-content">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="lore-btn-txt">Dropdown button</span>
+              </button>
+              <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
+                <p class="lore-dropdown-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -67,7 +70,14 @@
           <div class="card-body lore-card-content">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="lore-btn-txt">Dropdown button</span>
+              </button>
+              <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
+                <p class="lore-dropdown-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -77,21 +87,28 @@
           <div class="card-body lore-card-content">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="lore-btn-txt">Dropdown button</span>
+              </button>
+              <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
+                <p class="lore-dropdown-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row lore-buffer">
       <div class="col-md-12">
       </div>
     </div>
 
     <hr>
 
-    <footer>
-      <p>© Company 2014</p>
+    <footer class="lore-footer ">
+      <p>© Lore 2018</p>
     </footer>
   </div>
   <!-- /container -->
