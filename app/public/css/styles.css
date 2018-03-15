@@ -5,6 +5,10 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
 .lore-btn-txt {
   font-family: 'Lekton', sans-serif;
 }
@@ -50,6 +54,10 @@ nav li {
 
 .lore-buffer {
   height: 300px;
+}
+
+.lore-buffer-profile {
+  height: 3em;
 }
 
 .lore-footer {
