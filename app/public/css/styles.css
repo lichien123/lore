@@ -1,15 +1,13 @@
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
+
+
+.lore-card-content {
+  padding: 1em;
 }
 
-
-/* iPads (portrait and landscape) ----------- */
+/*====================================*/
+/********** MEDIA QUERIES *************/
+/*====================================*/
 @media only screen and (min-width : 992px) and (max-width : 1196px) {
-
-  /* .lore-card-content {
-    width: 70%;
-  } */
 
   .lore-card-width {
     /* width: 14rem !important; */
@@ -43,7 +41,6 @@
 
 }
 
-/* Smartphones (portrait) ----------- */
 @media only screen and (min-width : 465px) and (max-width : 529px) {
 
   .lore-card-margin {
@@ -54,6 +51,7 @@
 }
 
 @media only screen and (max-width : 464px) {
+  
   .lore-card-width {
     width: 100% !important;
   }
