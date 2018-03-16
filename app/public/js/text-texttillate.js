@@ -1,0 +1,3 @@
+$(function() {
+  $(".profile-animate").textillate();
+})

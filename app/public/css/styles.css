@@ -9,6 +9,10 @@ h2 {
   font-family: 'Press Start 2P', cursive;
 }
 
+h5 {
+  font-family: 'Press Start 2P', cursive;
+}
+
 .lore-btn-txt {
   font-family: 'Lekton', sans-serif;
 }
@@ -32,12 +36,36 @@ nav li {
     );
 }
 
+.gradient-2 {
+  height: 100%;
+  background-color: Lavender;
+  background-image:
+    linear-gradient(
+      to right,
+      Lavender,
+      Aquamarine 70%
+    );
+}
+
+.lore-btn-bg {
+  background-color: #e6f046;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
 .lore-header {
   text-align: center;
 }
 
 .lore-card-content {
   padding: 1em;
+}
+
+.sign-up-btn {
+  font-size: 32px;
+  padding: 5%;
+  background-color: #7f2eed;
 }
 
 .lore-dropdown-text {
@@ -53,7 +81,7 @@ nav li {
 }
 
 .lore-buffer {
-  height: 300px;
+  height: 100px;
 }
 
 .lore-buffer-profile {
