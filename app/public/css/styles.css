@@ -1,0 +1,119 @@
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 70px;
+  color: white;
+}
+
+.lore-btn-txt {
+  font-family: 'Lekton', sans-serif;
+}
+
+p {
+  font-family: 'Lekton', sans-serif;
+}
+
+nav li {
+  font-family: 'Lekton', sans-serif;
+}
+
+.gradient {
+  height: 100%;
+  background-color: Aquamarine;
+  background-image:
+    linear-gradient(
+      to right,
+      Aquamarine,
+      Lavender 70%
+    );
+}
+
+.lore-header {
+  text-align: center;
+}
+
+.lore-card-content {
+  padding: 1em;
+}
+
+.lore-dropdown-text {
+  padding: 5%;
+}
+
+.lore-dropdown-window {
+  margin-top: 2em;
+}
+
+.lore-dropdown-btn {
+  margin-left: 4.5em;
+}
+
+.lore-buffer {
+  height: 300px;
+}
+
+.lore-footer {
+  text-align: center;
+}
+
+/*====================================*/
+/********** MEDIA QUERIES *************/
+/*====================================*/
+@media only screen and (min-width : 992px) and (max-width : 1196px) {
+
+  .lore-card-width {
+    /* width: 14rem !important; */
+    width: 18rem !important;
+  }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+  .lore-card-margin {
+    margin-left: 0em;
+    margin-bottom: 2em;
+  }
+
+  .lore-card-width {
+    width: 13rem !important;
+  }
+
+  .lore-dropdown-btn {
+    margin-left: 0;
+}
+
+}
+
+@media only screen and (min-width : 530px) and (max-width : 767px) {
+
+  .lore-card-margin {
+      margin-left: 6em;
+      margin-bottom: 2em;
+  }
+
+  .lore-card-width {
+    width: 20rem !important;
+  }
+
+}
+
+@media only screen and (min-width : 465px) and (max-width : 529px) {
+
+  .lore-card-margin {
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+
+}
+
+@media only screen and (max-width : 464px) {
+
+  .lore-card-width {
+    width: 100% !important;
+  }
+
+  .lore-card-margin {
+    margin-bottom: 2em;
+  }
+}
