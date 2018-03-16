@@ -68,6 +68,13 @@ nav li {
   background-color: #7f2eed;
 }
 
+.lore-btn-secondary {
+  margin-right: 11em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Lekton', sans-serif;
+}
+
 .lore-dropdown-text {
   padding: 5%;
 }
@@ -90,6 +97,26 @@ nav li {
 
 .lore-footer {
   text-align: center;
+}
+
+.lore-modal {
+  font-size: 23px;
+  font-weight: bolder;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.lore-modal p {
+  padding-left: 6em;
+}
+
+.modal-login-btn-div {
+  padding-top: 1em;
+}
+
+.modal-forgot {
+  font-family: 'Lekton', sans-serif;
 }
 
 /*====================================*/

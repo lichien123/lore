@@ -11,7 +11,7 @@
   <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
-    <link rel="stylesheet" href="../../public/css/iziModal.min.css">
+  <link rel="stylesheet" href="../../public/css/iziModal.min.css">
 
 
   <title>Lore</title>
@@ -43,7 +43,7 @@
     <div class="jumbotron lore-header gradient">
       <div class="container">
         <h1>Lore</h1>
-        <p> Physical fitness RPG application that increses a user's stats as they interact with the applications.</p>
+        <p> Physical fitness RPG application that increses a user's stats as they interact with the application.</p>
       </div>
     </div>
     <!-- Example row of columns -->
@@ -109,20 +109,22 @@
 
 
 
-        <!-- Modal structure -->
-        
-        <div id="modal" data-iziModal-fullscreen="true" data-iziModal-closeOnEscape="true"  data-iziModal-title="my soundcloud is lit fam soundcloud.com/chxian" data-iziModal-icon="icon-home"> 
-        <!-- Modal content -->
-        <div class="log-form">
-      <h2>Login to your account</h2>
-      <form>
-        <input type="text" title="username" placeholder="username" />
-        <input type="password" title="username" placeholder="password" />
-        <a href="main.html"><button type="submit" class="btn">Login</button><a>
-        <a class="forgot" href="#">Forgot Username?</a>
-      </form>
-    </div>
-  <!--end log form -->
+    <!-- Modal structure -->
+
+    <div id="modal" class="gradient-2" data-iziModal-fullscreen="true" data-iziModal-closeOnEscape="true" data-iziModal-icon="icon-home">
+      <!-- Modal content -->
+      <div class="log-form lore-modal">
+        <p>Login to your account</p>
+        <form>
+          <input type="text" title="username" placeholder="username" />
+          <input type="password" title="username" placeholder="password" />
+        </form>
+        <div class="modal-login-btn-div">
+          <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary">Login</button><a>
+          <a class="forgot modal-forgot" href="#">Forgot Username?</a>
+        </div>
+      </div>
+      <!--end log form -->
     </div>
 
 
