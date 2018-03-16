@@ -18,8 +18,8 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-pL9Uvvb7LMqGC8jv/AyqZ7Ya6/HTgkhZzKwEsHOdsfaW2pr3fgzqjgKUSJfYkZ/klxwHrcu+tZwtNDTuw8vH6Q==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-0ca3a06ece5ff0c89b5eb7f77e0d5d11.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-8ue1T5QvsA6oMBKtIZ3lxN4EadZSyu73rqi7RRo0f5yHBAZmrQ9bUEjl0gYhX3qn/OZaK5F5fUZrbazAetNnMw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-6a0d46b8143ecaf8c2be36ca988573c3.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-V720cDdHDQeM0Bt13qUO+3Zflb00198qnbRMHEzO7NdpGazBS3hvURDZ1ehk+4hWxL8GYp5nlYT+RHLTiw2E2w==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-6caac13806331f9675860df98a99b39a.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-vU990KofmQrySIF8K3m+k7SzDmSwmzz4OM8TDmbOTAmMUcb46DGna/BhGrWMUhcUnxuZAn5qZuBza/4y83cxWA==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-433f7c5f54c814c254a3bb87e9af86db.css" />
   
   
   
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/1163252?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jschr/textillate" /><meta property="og:url" content="https://github.com/jschr/textillate" /><meta property="og:description" content="textillate - A jquery plugin for CSS3 text animations." />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE5NjM0NDc1OjkwZjVlNzlhMDhlNGM2YmJkN2Y3YjNlYWEwMDk4ZGVmM2UwOWZiYzE0MDFiNTk2ZjZiN2Q3ZmUxYzQ0Zjc4ZmI=--5df7a6945e0956ae4a9ce5a919df40846c0cae54">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE5NjM0NDc1OjU5Y2NmYTZiZDdkNWMwMGMyY2E1NWMwODFhOWY3MWM5NzY0NDczZDNmNzBmYmE2ODcwY2Y4N2NmN2I1YTkzN2Y=--8fd5ec954f43e34e767b2d79e7bfe6cbde7d3f96">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="F9FE:2CFBF:103D6BB:1F35901:5AAAB523" data-pjax-transient>
+  <meta name="request-id" content="EA87:1A07:10D867D:1FC3160:5AAB1C6A" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -50,7 +50,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="F9FE:2CFBF:103D6BB:1F35901:5AAAB523" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="17800509" /><meta name="octolytics-actor-login" content="TaqwaR" /><meta name="octolytics-actor-hash" content="c1cdfab9e07b40765808bc2f0c08e72bdb65ed4edde824687dcc68d35270d924" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EA87:1A07:10D867D:1FC3160:5AAB1C6A" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="17800509" /><meta name="octolytics-actor-login" content="TaqwaR" /><meta name="octolytics-actor-hash" content="c1cdfab9e07b40765808bc2f0c08e72bdb65ed4edde824687dcc68d35270d924" />
 <meta name="hydro-events-url" content="https://github.com/hydro_browser_events" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -66,13 +66,13 @@
     <meta name="user-login" content="TaqwaR">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZDk3NzZkMzQzYTIzNzlhMTBlMTU1Yjk5YjcwNDNlNDBmMmU2ZjAzMmIwOWUwOGFkMTRjNDhmNmMyOGIzOTY2MHx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjQ1LjEyOS4xNTYiLCJyZXF1ZXN0X2lkIjoiRjlGRToyQ0ZCRjoxMDNENkJCOjFGMzU5MDE6NUFBQUI1MjMiLCJ0aW1lc3RhbXAiOjE1MjExMzY5NjUsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="MjRjZmIxZjg2NTEyNDg4NGY3MDliZDczODE2MzZmYTMxMDIxZmVkYmVlOTQ4YTRkZTMzODM4NTAyYzlkZDg3Nnx7InJlbW90ZV9hZGRyZXNzIjoiNjYuMTYyLjEwLjEiLCJyZXF1ZXN0X2lkIjoiRUE4NzoxQTA3OjEwRDg2N0Q6MUZDMzE2MDo1QUFCMUM2QSIsInRpbWVzdGFtcCI6MTUyMTE2MzM3MCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
 
   <meta name="html-safe-nonce" content="062808a73c98da4816d56851b4446a059bc61944">
 
-  <meta http-equiv="x-pjax-version" content="221dfc285e21339951e7510bccb56096">
+  <meta http-equiv="x-pjax-version" content="f32f318c90e01149b31d4dce47d1259b">
   
 
       <link href="https://github.com/jschr/textillate/commits/master.atom" rel="alternate" title="Recent Commits to textillate:master" type="application/atom+xml">
@@ -257,7 +257,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VxrAjvRFLpYwfG7v9vRfLJVVX9IvNipSzVtX6DWYBVjhCCrjbk9vWMg816bJBZSse/JSuM5Gd+BS+v1WlVOdsw==" />
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dGSQ1qFFOLOSER7DIP0DztAVBFxSbwPxNEJLrF64atDCdnq7O095fWpRp4ofDMhOPrIJNrMfXkOr4+ES/nPyOw==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -269,7 +269,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LzwCaLSTv+twdrO82hqmrLuqbYMjby6uME4qtv24uKuZLugFLpn+JYg2CvXl620sVQ1g6cIfcxyv74AIXXMgQA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0NNklMhr4iV0+niGFpMbJH5Dd98s7F/EvT6Yirqm9vdmwY75UmGj64y6wc8pYtCkkOR6tc2cAnYinzI0Gm1uHA==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -307,7 +307,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="n5SarxNvF1ZnhS0DNMgInsoxN089swwPRvniXRbFuUzjCDCbi4iT2MpdMZP2JKPaAaabrCcEPdA9eadm12Rl9Q==" />      <input type="hidden" name="repository_id" id="repository_id" value="7814311" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="m8lzt+kf+lvKiOcUJ6o0J0nnBm5oi6JGDuxOueC7CV3nVdmDcfh+1WdQ+4TlRp9jgnCqjXI8k5l1bAuCIRrV5A==" />      <input type="hidden" name="repository_id" id="repository_id" value="7814311" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/jschr/textillate/subscription"
@@ -387,7 +387,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container on">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/jschr/textillate/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="knpHwfTXzOhmKZlRyDYcIgKVI4Q3A/iGVCG8bPGXO4Tz2nDC3rn6YVp0w6OjOYS/48E9A7AbnJ+OwPXI/0N5Ow==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/jschr/textillate/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="FsZ95SnJk4GHjyAra2DqkOaPcjonjpTx9wLT4JeANWl3ZkrmA6elCLvSetkAb3INB9tsvaCW8Ogt45pEmVR31g==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -398,11 +398,11 @@
         Unstar
       </button>
         <a class="social-count js-social-count" href="/jschr/textillate/stargazers"
-           aria-label="3198 users starred this repository">
-          3,198
+           aria-label="3199 users starred this repository">
+          3,199
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/jschr/textillate/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hnjkpIc9+QjlXeC9f/aQEYROYNNJlLZiAQ8ykRXgh1Z6whb3OFA8I/aZ39e6pKlLvQhsZ1T856eBDuBxwnulOA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/jschr/textillate/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zHwtX+dgeA76fKN/yXVHFzK+jKLcWqS78cHgJrPn464wxt8MWA29Jem4nBUMJ35NC/iAFsEy9X5xwDLGZHzBwA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -413,15 +413,15 @@
         Star
       </button>
         <a class="social-count js-social-count" href="/jschr/textillate/stargazers"
-           aria-label="3198 users starred this repository">
-          3,198
+           aria-label="3199 users starred this repository">
+          3,199
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/jschr/textillate/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1rtWjl+q8it/Hywv1vnJ1xMqyt256afzVfgGte4W5TWjl/nwo4Er8DGqrHwPVNxKeVppUfjCfnycosikUIXsgA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/jschr/textillate/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y9T00MY5qfT8hwPCvheEowPZVMf9KGHrI16+R+Kpgv2++FuuOhJwL7Iyg5FnupE+aan3S7wDuGTqBHBWXDqLSA==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -466,7 +466,7 @@
       <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /jschr/textillate/issues" href="/jschr/textillate/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
-        <span class="Counter">53</span>
+        <span class="Counter">54</span>
         <meta itemprop="position" content="2">
 </a>    </span>
 
@@ -602,7 +602,6 @@
       </a>
       <clipboard-copy
             for="blob-path"
-            role="button"
             aria-label="Copy file path to clipboard"
             class="btn btn-sm BtnGroup-item tooltipped tooltipped-s"
             data-copied-hint="Copied!">
@@ -643,13 +642,13 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/jschr/textillate/edit/master/jquery.textillate.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="v3y1158gj4jVMe83t3K3AWIt58Lwc8H9Z+ZT8GUZYrqq0cZszp/bfQGPOkrIK25flX2zteoOZ6I+DjVcmq5JxQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/jschr/textillate/edit/master/jquery.textillate.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PJ6YPgval/gsdfFyvQF+KW0WM63J+oFo7oSAvt7z5nopM+uFWmXDDfjLJA/CWKd3mkZn2tOHJze3bOYSIUTNBQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/jschr/textillate/delete/master/jquery.textillate.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5n6vs7y1OEPLcrls9He1L1i9cMQog7+fpBtjI1iQTuhOsgRjy+kUMosjk6LfYXx7dS77WrDQw6G3IneR790V/A==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/jschr/textillate/delete/master/jquery.textillate.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TDOYDOtXcL13eQp6Pdy9hq8C5Jmy+5X6ZGqn3gFL8Mzk/zPcnAtczDcoILQWynTSgpFvByqo6cR3U7Nstgar2A==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1885,8 +1884,8 @@
     </button>
     <div class="dropdown-menu-content js-menu-content" id="inline-file-actions">
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
-        <li><a class="js-zeroclipboard dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</a></li>
-        <li><a class="js-zeroclipboard dropdown-item" id= "js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</a></li>
+        <li><clipboard-copy class="dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
         <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" href="/jschr/textillate/blame/3ca7326c3fd3c4856283df6a6e2f6b65ce06051e/jquery.textillate.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" href="/jschr/textillate/issues/new">Open new issue</a></li>
       </ul>
@@ -1918,7 +1917,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.43281s from unicorn-1835568014-v5qrg">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.32906s from unicorn-4128740956-77jn0">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-terms-of-service/" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -1953,9 +1952,9 @@
 
 
     
-    <script crossorigin="anonymous" integrity="sha512-VmbIS/+Fg129IEwpl7CsndGIpidXnNAx1Q4d5/Xn7vU7/JNhtsvJustRPj04u7TjfSV82mEwl0jgePGz71iHEA==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-46950849ef256946d266ee303b85abed.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-cJXzgeQupAuBbhx5WJ6GP/qwIjrvBuFfk0p2HQhV6oNSnK0+S4ahmSQCw7Kcgji8AGGHmlKQxn1XDWhHuY5xyQ==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-4864edf87c8541242ad2c01d7a701855.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-/dAK3O+FNVtLQR1jUsOUucOMKK4hcP+cYsjqUuTmihAks6jsXOsDFPLmzLnJD7S4sZ5jG3WDlCpAWkrh8GIKow==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-eab19bd5be3fe4861b939329cf2a9d6b.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-Yzdkife9DeBojxHnDgbYzJ8MFAcZdwiEpa62M9nZx/lkbE82ezFeelIdA+9rBqDtBeVtYRVM/8ghrbW2spLeVA==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-68a09d5675b3bba5fbb9221e6f7b907a.js"></script>
     
     
     
