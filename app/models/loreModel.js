@@ -31,6 +31,8 @@ var userInfo = sequelize.define('info', {
 }, {
 		timestamps: false
 	});
+  return userInfo;
+};
 
 
 //sync this model with the database
