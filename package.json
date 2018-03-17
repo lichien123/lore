@@ -25,6 +25,6 @@
     "handlebars": "^4.0.11",
     "izimodal": "^1.5.1",
     "mysql2": "^1.5.2",
-    "sequelize": "^4.36.1"
+    "sequelize": "^4.37.1"
   }
 }

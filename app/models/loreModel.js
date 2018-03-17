@@ -1,6 +1,6 @@
   ////////////////////////////////////////////////
- //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL//
-////////////////////////////////////////////////
+ //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL// 
+////////////////////////////////////////////////  
 
 var Sequelize = require("sequelize");
 
@@ -8,6 +8,8 @@ var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
 
 //create a general model for storing data
+// var userInfo = "hi"
+
 var userInfo = sequelize.define('info', {
 	id: {
 		type: Sequelize.INTEGER,
@@ -32,8 +34,8 @@ var userInfo = sequelize.define('info', {
 
 
 //sync this model with the database
-userInfo.sync();
+// userInfo.sync();
 console.log(userInfo);
 
 
-module.exports = userInfo;
+module.exports = {userInfo: userInfo, sequelize: sequelize};
