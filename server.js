@@ -22,7 +22,7 @@ app.use(bodyParser.text({type: 'text/html'}))
 //Routes
 //=========================
 require(".app/routes/api-routes.js")(app);
-
+require(".app/routes/html-routes.js")(app);
 
 
 app.listen(PORT, function(){

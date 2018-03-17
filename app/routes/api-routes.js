@@ -15,11 +15,10 @@ module.exports = function(app) {
 
 	//route that displays all userInfo
 	app.get("/api/all", function(req, res){
-		console.log('hi');
-		// userInfo.findAll({}).then(function(results){
-			console.log(res.json());
-
-		// });
+		userInfo.findAll({}).then(function(req,res){
+			res.json(results);
+			console.log(results);
+		})
 	});
 
 	//more routes here
