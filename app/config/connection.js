@@ -5,7 +5,7 @@
 var Sequelize = require("sequelize");
 
 
-var sequelize = new Sequelize("lore_db", "root", "", {
+var sequelize = new Sequelize("lore_db", "root", "NEWPASS", {
 	host: "localhost",
 	dialect: "mysql",
 	pool: {
