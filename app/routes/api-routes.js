@@ -3,25 +3,21 @@
 //////////////////////////////////////////////////////
 
 //require the model for storing data
-var userInfo = require("../models/loreModel.js");
+var model = require("../models/loreModel.js");
 
 
 
 
 
-//here come the routes
-//export all routes
+// Routes
+// =============================================================
 module.exports = function(app) {
-
-	//route that displays all userInfo
-	app.get("/api/all", function(req, res){
-		console.log('hi');
-		// userInfo.findAll({}).then(function(results){
-			console.log(res.json());
-
-		// });
-	});
-
-	//more routes here
-
-};
+  // GET route for getting all of the todos
+  app.get("/api", function(req, res) {
+    // findAll returns all entries for a table when used with no options
+    loreModel.userInfo.findAll({}).then(function(userInfoObjectModel) {
+      // We have access to the todos as an argument inside of the callback function
+      res.json(userInfoObjectModel);
+    });
+  });
+	 };
