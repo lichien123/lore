@@ -59,6 +59,10 @@ nav li {
   text-align: center;
 }
 
+.point {
+  cursor: pointer;
+}
+
 .lore-card-content {
   padding: 1em;
 }
