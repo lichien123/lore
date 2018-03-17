@@ -15,6 +15,7 @@ h5 {
 
 .lore-btn-txt {
   font-family: 'Lekton', sans-serif;
+  font-weight: bolder;
 }
 
 p {
@@ -86,6 +87,19 @@ nav li {
 
 .lore-dropdown-btn {
   margin-left: 4.5em;
+}
+
+.lore-points-dropdown {
+  width: 40%;
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+.lore-account-dropdown  {
+  width: 20%;
+  float: right;
+  background-color: #eceeef;
+  border: none;
 }
 
 .lore-buffer {
@@ -180,4 +194,20 @@ nav li {
   .lore-card-margin {
     margin-bottom: 2em;
   }
+}
+
+/* ================  */
+/* URANIUM */
+/* ================= */
+
+[data-ur-tabs-component="content"] {
+  display: none;
+}
+[data-ur-tabs-component="content"][data-ur-state="enabled"] {
+  display: block;
+}
+
+
+.lore-tabs {
+  margin-top: 2em;
 }
