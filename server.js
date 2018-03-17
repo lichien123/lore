@@ -1,7 +1,7 @@
 var express = require('express')
-var app = express()
 var bodyParser = require('body-parser')
 
+var app = express()
 var PORT = process.env.PORT || 8080
 
 //create application/json parser
@@ -18,6 +18,11 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}))
 
 //parse an HTML body into a starting
 app.use(bodyParser.text({type: 'text/html'}))
+
+//Routes
+//=========================
+require(".app/routes/api-routes.js")(app);
+
 
 
 app.listen(PORT, function(){
