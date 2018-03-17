@@ -11,7 +11,7 @@
   <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
-    <link rel="stylesheet" href="../../public/css/iziModal.min.css">
+  <link rel="stylesheet" href="../../public/css/iziModal.min.css">
 
 
   <title>Lore</title>
@@ -43,7 +43,7 @@
     <div class="jumbotron lore-header gradient">
       <div class="container">
         <h1>Lore</h1>
-        <p> Physical fitness RPG application that increses a user's stats as they interact with the applications.</p>
+        <p> Physical fitness RPG application that increses a user's stats as they interact with the application.</p>
       </div>
     </div>
     <!-- Example row of columns -->
@@ -53,7 +53,7 @@
         <div class="card lore-card-width" style="width: 22rem;">
           <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title trigger" href="https://github.com/dolce/iziModal">Card title</h5>
+            <h5 class="card-title lore-btn-bg trigger get-titan" href="https://github.com/dolce/iziModal">Titan</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,7 +70,7 @@
         <div class="card lore-card-width" style="width: 22rem;">
           <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title trigger" href="https://github.com/dolce/iziModal">Card title</h5>
+            <h5 class="card-title lore-btn-bg trigger get-hunter" href="https://github.com/dolce/iziModal">Hunter</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -87,7 +87,7 @@
         <div class="card lore-card-width" style="width: 22rem;">
           <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title trigger" href="https://github.com/dolce/iziModal">Card title</h5>
+            <h5 class="card-title lore-btn-bg trigger get-assassin" href="https://github.com/dolce/iziModal">Assassin</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -109,20 +109,43 @@
 
 
 
-        <!-- Modal structure -->
-        
-        <div id="modal" data-iziModal-fullscreen="true" data-iziModal-closeOnEscape="true"  data-iziModal-title="my soundcloud is lit fam soundcloud.com/chxian" data-iziModal-icon="icon-home"> 
-        <!-- Modal content -->
-        <div class="log-form">
-      <h2>Login to your account</h2>
-      <form>
-        <input type="text" title="username" placeholder="username" />
-        <input type="password" title="username" placeholder="password" />
-        <a href="main.html"><button type="submit" class="btn">Login</button><a>
-        <a class="forgot" href="#">Forgot Username?</a>
-      </form>
-    </div>
-  <!--end log form -->
+    <!-- Modal structure -->
+
+    <div id="modal" class="gradient-2" data-iziModal-fullscreen="true" data-iziModal-closeOnEscape="true" data-iziModal-icon="icon-home">
+      <!-- <div data-ur-set="tabs">
+        <div data-ur-tabs-component="button" data-ur-tab-id="one" data-ur-state="enabled">Register</div>
+        <div data-ur-tabs-component="button" data-ur-tab-id="two">Login</div>
+        <div data-ur-tabs-component="content" data-ur-tab-id="one" data-ur-state="enabled">
+          First tab content
+        </div>
+        <div data-ur-tabs-component="content" data-ur-tab-id="two">
+          Second tab content
+        </div>
+      </div> -->
+
+      <!-- Modal content -->
+      <div class="log-form lore-modal">
+        <p>Register</p>
+        <form>
+          <input type="text" title="username" placeholder="username" />
+          <input type="password" title="username" placeholder="password" />
+        </form>
+        <div class="modal-login-btn-div">
+          <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary post-create-act">Submit</button><a>
+        </div>
+      </div>
+      <div class="log-form lore-modal">
+        <p>Login to your account</p>
+        <form>
+          <input type="text" title="username" placeholder="username" />
+          <input type="password" title="username" placeholder="password" />
+        </form>
+        <div class="modal-login-btn-div">
+          <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary get-login-act">Login</button><a>
+          <a class="forgot modal-forgot" href="#">Forgot Username?</a>
+        </div>
+      </div>
+      <!--end log form -->
     </div>
 
 
@@ -156,16 +179,12 @@
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="http://v4-alpha.getbootstrap.com/assets/js/vendor/jquery.min.js"></script>
-  <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script> -->
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="../../public/js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="../../public/js/iziModal.min.js" type="text/javascript"></script>
   <script src="../../public/js/main.js"></script>
+  <script src="../../public/js/uranium.js" type="text/javascript"></script>
 
 
 

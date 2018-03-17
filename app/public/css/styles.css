@@ -15,6 +15,7 @@ h5 {
 
 .lore-btn-txt {
   font-family: 'Lekton', sans-serif;
+  font-weight: bolder;
 }
 
 p {
@@ -49,6 +50,7 @@ nav li {
 
 .lore-btn-bg {
   background-color: #e6f046;
+  padding: 1em;
   text-align: center;
   color: white;
   width: 100%;
@@ -68,6 +70,13 @@ nav li {
   background-color: #7f2eed;
 }
 
+.lore-btn-secondary {
+  margin-right: 11em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Lekton', sans-serif;
+}
+
 .lore-dropdown-text {
   padding: 5%;
 }
@@ -80,6 +89,19 @@ nav li {
   margin-left: 4.5em;
 }
 
+.lore-points-dropdown {
+  width: 40%;
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+.lore-account-dropdown  {
+  width: 20%;
+  float: right;
+  background-color: #eceeef;
+  border: none;
+}
+
 .lore-buffer {
   height: 100px;
 }
@@ -90,6 +112,26 @@ nav li {
 
 .lore-footer {
   text-align: center;
+}
+
+.lore-modal {
+  font-size: 23px;
+  font-weight: bolder;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.lore-modal p {
+  padding-left: 6em;
+}
+
+.modal-login-btn-div {
+  padding-top: 1em;
+}
+
+.modal-forgot {
+  font-family: 'Lekton', sans-serif;
 }
 
 /*====================================*/
@@ -152,4 +194,20 @@ nav li {
   .lore-card-margin {
     margin-bottom: 2em;
   }
+}
+
+/* ================  */
+/* URANIUM */
+/* ================= */
+
+[data-ur-tabs-component="content"] {
+  display: none;
+}
+[data-ur-tabs-component="content"][data-ur-state="enabled"] {
+  display: block;
+}
+
+
+.lore-tabs {
+  margin-top: 2em;
 }
