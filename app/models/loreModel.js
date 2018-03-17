@@ -8,7 +8,8 @@ var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
 
 //create a general model for storing data
-var userInfo = sequelize.define('info', {
+module.exports = function(sequelize, DataTypes) {
+  var userInfo = sequelize.define('userInfo', {
 	id: {
 		type: Sequelize.INTEGER,
 		autoIncrement: true,
@@ -29,11 +30,7 @@ var userInfo = sequelize.define('info', {
 }, {
 		timestamps: false
 	});
+  return userInfo;
+};
 
 
-//sync this model with the database
-userInfo.sync();
-console.log(userInfo);
-
-
-module.exports = userInfo;
