@@ -26,6 +26,7 @@ app.use(bodyParser.text({type: 'text/html'}))
 
 //REQUIRE ROUTES
 require("./app/routes/api-routes.js")(app);
+require("./app/routes/html-routes")(app);
 
 app.listen(PORT, function(){
     console.log("App listening on PORT:" + PORT);
