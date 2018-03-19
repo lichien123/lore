@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS lore_db2;
+DROP DATABASE IF EXISTS lore_db;
 
-CREATE DATABASE lore_db2;
+CREATE DATABASE lore_db;
 
-USE lore_db2;
+USE lore_db;
 
 CREATE TABLE characterInfo (
   id INT NOT NULL AUTO_INCREMENT,
