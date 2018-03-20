@@ -3492,3 +3492,7 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+.point {
+  cursor: pointer;
+}
