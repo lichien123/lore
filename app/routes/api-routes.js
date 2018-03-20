@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////
 
 //require the model for storing data
-var model = require("../models/loreModel.js");
+var model = require("../models");
 
 var express = require("express");
 var app = express();
