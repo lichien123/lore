@@ -47,6 +47,12 @@ nav li {
       Aquamarine 70%
     );
 }
+#login{
+  float: right;
+}
+#signup{
+  float: right;
+}
 
 .lore-btn-bg {
   background-color: #e6f046;

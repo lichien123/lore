@@ -1,11 +1,11 @@
   ////////////////////////////////////////////////
- //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL// 
-////////////////////////////////////////////////  
+ //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL//
+////////////////////////////////////////////////
 
 var Sequelize = require("sequelize");
 
 //import the mysql connection from the connection.js file
-var sequelize = require("../config/connection.js");
+// var sequelize = require("../config/connection.js");
 
 //create a general model for storing data
 // var userInfo = "hi"
@@ -42,4 +42,3 @@ module.exports = function(sequelize, DataTypes) {
 
 //sync this model with the database
 // userInfo.sync();
-
