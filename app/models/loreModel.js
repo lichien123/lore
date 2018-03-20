@@ -13,7 +13,7 @@ var sequelize = require("../config/connection.js");
 module.exports = function(sequelize, DataTypes) {
   var userInfo = "hi"
 
-//   sequelize.define('userInfo', {
+//   var userInfo = sequelize.define('userInfo', {
 // 	id: {
 // 		type: Sequelize.INTEGER,
 // 		autoIncrement: true,
