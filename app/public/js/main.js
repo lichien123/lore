@@ -12,3 +12,14 @@ $( document ).ready(function() {
 
 
 });
+
+//////Linking Track Info to Frontend//////
+var trackInfo = require("../../utilities/allTrackInfo.js");
+
+$(function() {
+
+  $(".get-assassin").on("click", function(event) {
+    console.log(trackInfo.assassin);
+  })
+
+});

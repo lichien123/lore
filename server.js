@@ -1,3 +1,7 @@
+
+// Static directory
+app.use(express.static("app/public"));
+
 var express = require('express')
 var bodyParser = require('body-parser')
 var session  = require('express-session');
@@ -14,6 +18,7 @@ var flash    = require('connect-flash');
 require('./app/config/passport')(passport);
 
 // set up  express application
+
 
 
 //create application/json parser
@@ -39,6 +44,7 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}))
 //parse an HTML body into a starting
 app.use(bodyParser.text({type: 'text/html'}))
 
+
 // // Import routes and give the server access to them.
 // var routes = require("./app/controllers/controller.js");
 
@@ -56,8 +62,7 @@ app.use(flash()); // use connect-flash for flash messages stored in session
 require("./app/routes/api-routes.js")(app, passport);
 require("./app/routes/html-routes.js")(app, passport);
 
+
 app.listen(PORT, function(){
     console.log("App listening on PORT:" + PORT);
-
-
 })
