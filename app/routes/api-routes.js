@@ -22,7 +22,7 @@ module.exports = function(app, passport) {
   app.get('/login', function(req, res) {
 
   // render the page and pass in any flash data if it exists
-  res.render('login', { message: req.flash('loginMessage') });
+  res.render('login.html', { message: req.flash('loginMessage') });
 });
 
 // process the login form
@@ -46,7 +46,7 @@ app.post('/login', passport.authenticate('local-login', {
 
   // SIGNUP ==============================
 	// show the signup form
-	app.get('/signup.html', function(req, res) {
+	app.get('/signup', function(req, res) {
 		// render the page and pass in any flash data if it exists
 		res.render('signup.html', { message: req.flash('signupMessage') });
 	});
@@ -62,7 +62,7 @@ app.post('/login', passport.authenticate('local-login', {
 // PROFILE SECTION =========================
 // we will want this protected so you have to be logged in to visit
 // we will use route middleware to verify this (the isLoggedIn function)
-app.get('/profile.html', isLoggedIn, function(req, res) {
+app.get('/profile', isLoggedIn, function(req, res) {
   res.render('profile.html', {
     user : req.user // get the user out of session and pass to template
   });
