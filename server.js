@@ -8,8 +8,6 @@ var PORT = process.env.PORT || 8080;
 
 // Static directory
 app.use(express.static("app/public"));
-// app.use('/static', express.static("public"));
-// app.use('/static', express.static(path.join(__dirname, 'public')))
 
 //create application/json parser
 var jsonParser = bodyParser.json()

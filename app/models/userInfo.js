@@ -1,29 +1,20 @@
+
 var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
-var trackInfo = sequelize.define('tracks', {
+var trackInfo = sequelize.define('users', {
 
     id: {
       type: Sequelize.INTEGER,
       autoIncrement: true,
       primaryKey: true
     },
-    trackName: {
+    userName: {
       type: Sequelize.STRING
     },
-    stretchVid: {
-      type: Sequelize.TEXT
-    },
-    cardioVid: {
-      type: Sequelize.TEXT
-    },
-    workoutVid: {
-      type: Sequelize.TEXT
-    },
-    nutritionVid: {
-      type: Sequelize.TEXT
+    userPassword: {
+      type: Sequelize.STRING
     }
-
-});
+  });
 
 trackInfo.sync();
 console.log(trackInfo);

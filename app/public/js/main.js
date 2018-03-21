@@ -14,8 +14,7 @@ $( document ).ready(function() {
 });
 
 //////Linking Track Info to Frontend//////
-
-var trackInfo = require("../../utilities/allTrackInfo");
+var trackInfo = require("../../utilities/allTrackInfo.js");
 
 $(function() {
 
