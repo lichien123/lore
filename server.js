@@ -11,7 +11,7 @@ var flash    = require('connect-flash');
 
 
 // pass passport for configuration
-require('./config/passport')(passport);
+require('./app/config/passport')(passport);
 
 // set up  express application
 
@@ -42,7 +42,6 @@ app.use(bodyParser.text({type: 'text/html'}))
 // // Import routes and give the server access to them.
 // var routes = require("./app/controllers/controller.js");
 
-app.engine('html', require('ejs').renderFile);
 // required for passport
 app.use(session({
 	secret: 'login',
