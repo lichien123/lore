@@ -1,8 +1,11 @@
-var express = require('express')
-var app = express()
-var bodyParser = require('body-parser')
+var express = require('express');
+var bodyParser = require('body-parser');
+var path = require('path');
+var app = express();
+var PORT = process.env.PORT || 8080;
 
-var PORT = process.env.PORT || 8080
+// Static directory
+app.use(express.static("app/public"));
 
 //create application/json parser
 var jsonParser = bodyParser.json()
@@ -19,17 +22,10 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}))
 //parse an HTML body into a starting
 app.use(bodyParser.text({type: 'text/html'}))
 
-// // Import routes and give the server access to them.
-// var routes = require("./app/controllers/controller.js");
-
-// app.use(routes);
-
 //REQUIRE ROUTES
 require("./app/routes/api-routes.js")(app);
-require("./app/routes/html -routes.js")(app);
+require("./app/routes/html-routes.js")(app);
 
 app.listen(PORT, function(){
     console.log("App listening on PORT:" + PORT);
-
-
 })
