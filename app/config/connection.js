@@ -2,7 +2,7 @@
  //INITIATE CONNECTION TO MYSQL//
 ////////////////////////////////
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('lore_db', 'root', 'NEWPASS', {
+const sequelize = new Sequelize('lore_db', 'root', '', {
   host: 'localhost',
   dialect: 'mysql',
   operatorsAliases: false,
