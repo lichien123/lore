@@ -1,7 +1,7 @@
 
 var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
-var userInfo = sequelize.define('users', {
+var loginInfo = sequelize.define('users', {
 
     id: {
       type: Sequelize.INTEGER,
@@ -17,4 +17,4 @@ var userInfo = sequelize.define('users', {
   });
 
 trackInfo.sync();
-console.log(userInfo);
+console.log(loginInfo);
