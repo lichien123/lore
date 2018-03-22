@@ -26,13 +26,10 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}));
 app.use(bodyParser.text({type: 'text/html'}));
 
 //REQUIRE ROUTES
-require("./app/routes/userpoints-api-routes.js")(app);
-// require("USER INFO ROUTE") (app);
 require("./app/routes/html-routes.js")(app);
+require("./app/routes/userpoints-api-routes.js")(app);
+require("./app/routes/tracks-api-routes.js")(app);
 
-// app.listen(PORT, function(){
-//     console.log("App listening on PORT:" + PORT);
-// })
 
 db.sequelize.sync({ force: true }).then(function() {
   app.listen(PORT, function() {
