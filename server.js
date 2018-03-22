@@ -5,6 +5,8 @@ var path = require("path");
 
 var PORT = process.env.PORT || 8080
 
+var db = require("./app/models");
+
 // Static directory
 app.use(express.static("app/public"));
 
@@ -24,9 +26,16 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}));
 app.use(bodyParser.text({type: 'text/html'}));
 
 //REQUIRE ROUTES
-require("./app/routes/api-routes.js")(app);
+require("./app/routes/userpoints-api-routes.js")(app);
+// require("USER INFO ROUTE") (app);
 require("./app/routes/html-routes.js")(app);
 
-app.listen(PORT, function(){
-    console.log("App listening on PORT:" + PORT);
-})
+// app.listen(PORT, function(){
+//     console.log("App listening on PORT:" + PORT);
+// })
+
+db.sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
+});
