@@ -4,7 +4,7 @@ CREATE DATABASE lore_db;
 
 USE lore_db;
 
-CREATE TABLE infos (
+CREATE TABLE test (
   id INT NOT NULL AUTO_INCREMENT,
   username VARCHAR(45) NULL,
   class VARCHAR(45) NULL,
@@ -17,5 +17,5 @@ CREATE TABLE infos (
   PRIMARY KEY (id)
 );
 
-INSERT INTO infos (username, class, exp, level, hp, str, speed, stamina)
+INSERT INTO test (username, class, exp, level, hp, str, speed, stamina)
 VALUES ("spongebob", "warrior", 60, 1, 20, 15, 10, 10);
