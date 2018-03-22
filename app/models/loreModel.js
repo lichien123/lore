@@ -19,7 +19,13 @@ var userInfo = sequelize.define('info', {
 	username: {
 		type: Sequelize.STRING
 	},
+	password: {
+		type: Sequelize.STRING
+	},
 	class: {
+		type: Sequelize.STRING
+	},
+	track: {
 		type: Sequelize.STRING
 	},
 	exp: {

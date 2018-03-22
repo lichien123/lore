@@ -7,7 +7,9 @@ USE lore_db;
 CREATE TABLE test (
   id INT NOT NULL AUTO_INCREMENT,
   username VARCHAR(45) NULL,
+  password VARCHAR(45) NULL,
   class VARCHAR(45) NULL,
+  track VARCHAR(45) NULL,
   exp INT NULL,
   level INT NULL,
   hp INT NULL,
@@ -17,5 +19,5 @@ CREATE TABLE test (
   PRIMARY KEY (id)
 );
 
-INSERT INTO test (username, class, exp, level, hp, str, speed, stamina)
-VALUES ("spongebob", "warrior", 60, 1, 20, 15, 10, 10);
+INSERT INTO test (username, password, class, track, exp, level, hp, str, speed, stamina)
+VALUES ("spongebob", "patty", "titan", "titan", 60, 1, 20, 15, 10, 10);
