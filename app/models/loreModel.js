@@ -27,6 +27,18 @@ var userInfo = sequelize.define('info', {
 	},
 	level: {
 		type: Sequelize.INTEGER
+	},
+	hp: {
+		type: Sequelize.INTEGER
+	},
+	str: {
+		type: Sequelize.INTEGER
+	},
+	speed: {
+		type: Sequelize.INTEGER
+	},
+	stamina: {
+		type: Sequelize.INTEGER
 	}
 }, {
 		timestamps: false
