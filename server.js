@@ -56,6 +56,7 @@ app.use(flash()); // use connect-flash for flash messages stored in session
 require("./app/routes/html-routes.js")(app);
 require("./app/routes/userpoints-api-routes.js")(app);
 require("./app/routes/tracks-api-routes.js")(app);
+require("./app/routes/userInfo-api-routes.js")(app);
 
 
 db.sequelize.sync({ force: true }).then(function() {
