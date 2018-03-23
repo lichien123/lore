@@ -134,6 +134,22 @@ nav li {
   font-family: 'Lekton', sans-serif;
 }
 
+.lvl-display {
+  color: skyblue;
+}
+
+.exp-display {
+  color: green;
+}
+
+.stat-display {
+  color: red;
+}
+
+.points {
+  width: 500px;
+}
+
 /*====================================*/
 /********** MEDIA QUERIES *************/
 /*====================================*/
@@ -210,4 +226,8 @@ nav li {
 
 .lore-tabs {
   margin-top: 2em;
+}
+
+#login, #signup {
+  float: right;
 }

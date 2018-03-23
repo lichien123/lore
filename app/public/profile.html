@@ -11,8 +11,7 @@
   <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
-  <link rel="stylesheet" href="./css/iziModal.min.css" type="text/css">
-
+  <link href="../../public/css/animate.css" rel="stylesheet">
 
   <title>Lore</title>
 
@@ -23,7 +22,7 @@
   <link href="http://v4-alpha.getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+  <link rel="stylesheet" href="./css/styles.css">
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -34,12 +33,13 @@
 
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="main.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
         <li class="breadcrumb-item"><a href="#">About</a></li>
         <li class="breadcrumb-item active" aria-current="page">User Page</li>
-        <li>
+        <li class="breadcrumb-item " id="signup"><a href="/">Logout</a></li>
+        <!-- <li>
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle lore-account-dropdown point" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle lore-account-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="lore-btn-txt">Account</span>
               </button>
             <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
@@ -47,7 +47,7 @@
               <p class="lore-dropdown-text delete-act-btn destroy-act">Delete Account</p>
             </div>
           </div>
-        </li>
+        </li> -->
       </ol>
     </nav>
 
@@ -66,10 +66,10 @@
     <div data-ur-set="tabs">
       <div class="row">
         <div class="col-md-6 text-center lore-tabs">
-          <div data-ur-tabs-component="button" data-ur-tab-id="one" data-ur-state="enabled"><span class="lore-btn-txt point">Quest</span></div>
+          <div data-ur-tabs-component="button" data-ur-tab-id="one" data-ur-state="enabled"><span class="lore-btn-txt">Quest</span></div>
         </div>
         <div class="col-md-6 text-center lore-tabs">
-          <div data-ur-tabs-component="button" data-ur-tab-id="two"><span class="lore-btn-txt point">Points</span></div>
+          <div data-ur-tabs-component="button" data-ur-tab-id="two"><span class="lore-btn-txt">Points</span></div>
         </div>
       </div>
 
@@ -159,10 +159,12 @@
           </div>
         </div>
 
-        <h2 class="hp-points">HP</h2>
-        <h2 class="str-points">STR</h2>
-        <h2 class="speed-points">SPEED</h2>
-        <h2 class="stamina-points">STAMINA</h2>
+        <h2 class="lvl-points points">LVL <span class="lvl-display">1</span></h2>
+        <h2 class="exp-points points">EXP <span class="exp-display">50</span></h2>
+        <h2 class="hp-points points">HP <span class="stat-display">20</span></h2>
+        <h2 class="str-points points">STR <span class="stat-display">15</span></h2>
+        <h2 class="speed-points points">SPEED <span class="stat-display">10</span></h2>
+        <h2 class="stamina-points points">STAMINA <span class="stat-display">10</span></h2>
 
       </div>
     </div>
