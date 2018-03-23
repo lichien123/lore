@@ -11,10 +11,8 @@ var flash    = require('connect-flash');
 var app = express();
 var PORT = process.env.PORT || 8080
 
-// pass passport for configuration
-require('./app/config/passport')(passport);
+var db = require("./app/models");
 
-// set up  express application
 // Static directory
 app.use(express.static("app/public"));
 
@@ -55,12 +53,13 @@ app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
 
 //REQUIRE ROUTES
-// load our routes and pass in our app and fully configured passport
-require("./app/routes/api-routes.js")(app, passport);
-require("./app/routes/html-routes.js")(app, passport);
-
-app.listen(PORT, function(){
-    console.log("App listening on PORT:" + PORT);
+require("./app/routes/html-routes.js")(app);
+require("./app/routes/userpoints-api-routes.js")(app);
+require("./app/routes/tracks-api-routes.js")(app);
 
 
-})
+db.sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
+});

@@ -2,58 +2,54 @@
  //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL//
 ////////////////////////////////////////////////
 
-var Sequelize = require("sequelize");
+var DataTypes = require("sequelize");
 
 //import the mysql connection from the connection.js file
 var sequelize = require("../config/connection.js");
 
 //create a general model for storing data
-// var userInfo = "hi"
 
-var userInfo = sequelize.define('info', {
+module.exports = function(sequelize, DataTypes) {
+	var userInfo = sequelize.define("Info", {
 	id: {
-		type: Sequelize.INTEGER,
+		type: DataTypes.INTEGER,
 		autoIncrement: true,
 		primaryKey: true
 	},
-	username: {
-		type: Sequelize.STRING
+	userName: {
+		type: DataTypes.STRING
 	},
-	password: {
-		type: Sequelize.STRING
+	userPassword: {
+		type: DataTypes.STRING
 	},
 	class: {
-		type: Sequelize.STRING
+		type: DataTypes.STRING
 	},
 	track: {
-		type: Sequelize.STRING
+		type: DataTypes.STRING
 	},
 	exp: {
-		type: Sequelize.INTEGER
+		type: DataTypes.INTEGER
 	},
 	level: {
-		type: Sequelize.INTEGER
+		type: DataTypes.INTEGER
 	},
 	hp: {
-		type: Sequelize.INTEGER
+		type: DataTypes.INTEGER
 	},
 	str: {
-		type: Sequelize.INTEGER
+		type: DataTypes.INTEGER
 	},
 	speed: {
-		type: Sequelize.INTEGER
+		type: DataTypes.INTEGER
 	},
 	stamina: {
-		type: Sequelize.INTEGER
+		type: DataTypes.INTEGER
 	}
 }, {
 		timestamps: false
 	});
 
-
-//sync this model with the database
-// userInfo.sync();
-console.log(userInfo);
-
-
-module.exports = {userInfo: userInfo, sequelize: sequelize};
+	return userInfo;
+	console.log(userInfo);
+}
