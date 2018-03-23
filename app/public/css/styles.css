@@ -227,3 +227,7 @@ nav li {
 .lore-tabs {
   margin-top: 2em;
 }
+
+#login, #signup {
+  float: right;
+}
