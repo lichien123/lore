@@ -9,6 +9,6 @@ $( document ).ready(function() {
     $('#modal').iziModal('open');
 });
 
-
-
 });
+
+/////////////////////

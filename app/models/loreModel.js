@@ -2,13 +2,6 @@
  //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL//
 ////////////////////////////////////////////////
 
-var DataTypes = require("sequelize");
-
-//import the mysql connection from the connection.js file
-var sequelize = require("../config/connection.js");
-
-//create a general model for storing data
-
 module.exports = function(sequelize, DataTypes) {
 	var UserInfo = sequelize.define("UserInfo", {
 	id: {
