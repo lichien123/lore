@@ -35,8 +35,8 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">Home</li>
-        <li class="breadcrumb-item"><a href="#">About</a></li>
-        <li class="breadcrumb-item"><a href="profile.html">User Page</a></li>
+        <!-- <li class="breadcrumb-item"><a href="#">About</a></li> -->
+        <!-- <li class="breadcrumb-item"><a href="profile.html">User Page</a></li> -->
         <li class="breadcrumb-item" id="login"><a href="login.html">Login</a></li>
         <li class="breadcrumb-item" id="signup"><a href="signup.html">Sign-Up</a></li>
       </ol>
@@ -55,7 +55,7 @@
         <div class="card lore-card-width" style="width: 22rem;">
           <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 id="get-titan" class="card-title lore-btn-bg"><a href="titan.html">Titan</a></h5>
+            <h5 id="get-titan" class="card-title lore-btn-bg"><a href="/titan">Titan</a></h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,7 +72,7 @@
         <div class="card lore-card-width" style="width: 22rem;">
           <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title lore-btn-bg trigger get-hunter" href="https://github.com/dolce/iziModal">Hunter</h5>
+            <h5 class="card-title lore-btn-bg"><a href="/hunter">Hunter</a></h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -89,7 +89,7 @@
         <div class="card lore-card-width" style="width: 22rem;">
           <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title lore-btn-bg trigger get-assassin" href="https://github.com/dolce/iziModal">Assassin</h5>
+            <h5 class="card-title lore-btn-bg"><a href="/assasin">Assassin</a></h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -107,87 +107,6 @@
     <div class="row lore-buffer">
       <div class="col-md-12">
       </div>
-    </div>
-
-
-
-    <!-- Modal structure -->
-    <div id="modal" class="gradient-2" data-iziModal-fullscreen="true" data-iziModal-closeOnEscape="true" data-iziModal-icon="icon-home">
-
-      <!--URANIUM-->
-      <div data-ur-set="tabs">
-        <div class="row">
-          <div class="col-md-6 text-center lore-tabs">
-            <div data-ur-tabs-component="button" data-ur-tab-id="one" data-ur-state="enabled"><span class="lore-btn-txt">Register</span></div>
-          </div>
-          <div class="col-md-6 text-center lore-tabs">
-            <div data-ur-tabs-component="button" data-ur-tab-id="two"><span class="lore-btn-txt">Login</span></div>
-          </div>
-        </div>
-
-        <div data-ur-tabs-component="content" data-ur-tab-id="one" data-ur-state="enabled">
-
-          <div class="row lore-buffer-profile">
-            <div class="col-md-12">
-            </div>
-          </div>
-
-          <div class="log-form lore-modal">
-            <p>Register</p>
-            <form>
-              <input type="text" title="username" placeholder="username" />
-              <input type="password" title="username" placeholder="password" />
-            </form>
-            <div class="modal-login-btn-div">
-              <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary post-create-act">Submit</button><a>
-            </div>
-          </div>
-        </div>
-
-        <div data-ur-tabs-component="content" data-ur-tab-id="two">
-
-          <div class="row lore-buffer-profile">
-            <div class="col-md-12">
-            </div>
-          </div>
-
-          <div class="log-form lore-modal">
-            <p>Login to your account</p>
-            <form>
-              <input type="text" title="username" placeholder="username" />
-              <input type="password" title="username" placeholder="password" />
-            </form>
-            <div class="modal-login-btn-div">
-              <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary get-login-act">Login</button><a>
-              <a class="forgot modal-forgot" href="#">Forgot Username?</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Modal content -->
-      <!-- <div class="log-form lore-modal">
-        <p>Register</p>
-        <form>
-          <input type="text" title="username" placeholder="username" />
-          <input type="password" title="username" placeholder="password" />
-        </form>
-        <div class="modal-login-btn-div">
-          <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary post-create-act">Submit</button><a>
-        </div>
-      </div>
-      <div class="log-form lore-modal">
-        <p>Login to your account</p>
-        <form>
-          <input type="text" title="username" placeholder="username" />
-          <input type="password" title="username" placeholder="password" />
-        </form>
-        <div class="modal-login-btn-div">
-          <a href="main.html"><button type="submit" class="btn btn-secondary lore-btn-secondary get-login-act">Login</button><a>
-          <a class="forgot modal-forgot" href="#">Forgot Username?</a>
-        </div>
-      </div> -->
-      <!-- end log form -->
     </div>
 
 

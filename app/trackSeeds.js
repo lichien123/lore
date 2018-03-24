@@ -2,10 +2,21 @@
 ///Use this to seed tracks table. Copy and paste to run query.
 
 INSERT INTO tracks (track_name, track_description, stretch_vid, cardio_vid, workout_vid, nutrition_vid)
-VALUES ("Assasin", "You're versatile, cunning, and willing to take calculated risks. This track is perfect for the casual character who understands the link between mind and body.", "https://www.youtube.com/watch?v=VxBAlya7npk", "https://www.youtube.com/watch?v=86QRDjbrbdk", "https://www.youtube.com/watch?v=J4LJxvjq3BY", "https://www.youtube.com/watch?v=rO0Q9f4aYms");
+VALUES ("Assasin", "You're versatile, cunning, and willing to take calculated risks. This track is perfect for the casual character who understands the link between mind and body.",
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/VxBAlya7npk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/86QRDjbrbdk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/J4LJxvjq3BY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/rO0Q9f4aYms?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
 
 INSERT INTO tracks (track_name, track_description, stretch_vid, cardio_vid, workout_vid, nutrition_vid)
-VALUES ("Hunter", "Nimbleness, with a lean physique. You love the rush of the chase, and you understand the importance of instinct and calcution.", "https://www.youtube.com/watch?v=kKeBjBBUQyY", "https://www.youtube.com/watch?v=6wTylMnX7_k", "https://www.youtube.com/watch?v=YJ3QuchrUNA", "https://www.youtube.com/watch?v=frEU93hI6co");
+VALUES ("Hunter", "Nimbleness, with a lean physique. You love the rush of the chase, and you understand the importance of instinct and calcution.",
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/kKeBjBBUQyY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/6wTylMnX7_k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/YJ3QuchrUNA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/frEU93hI6co?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
 
 INSERT INTO tracks (track_name, track_description, stretch_vid, cardio_vid, workout_vid, nutrition_vid)
-VALUES ("Titan", "Much like a giant in appearance. You are powerful and sturdy, and your physical achievements cannot be ignored.", "https://www.youtube.com/watch?v=RVq0X3XnKmE", "https://www.youtube.com/watch?v=qzymPet0Fl4", "https://www.youtube.com/watch?v=H_gU_cgyWt8", "https://www.youtube.com/watch?v=xxP5qb89prg");
+VALUES ("Titan", "Much like a giant in appearance. You are powerful and sturdy, and your physical achievements cannot be ignored.", '<iframe width="560" height="315" src="https://www.youtube.com/embed/RVq0X3XnKmE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/qzymPet0Fl4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/H_gU_cgyWt8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/xxP5qb89prg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
