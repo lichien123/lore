@@ -21,7 +21,7 @@ A physical fitness RPG application that rewards users with a level up system.
 
 **Architecture Diagram**
 
-![arch_sketch](app/public/img/arch_sketch.jpeg)
+
 
 **UI Mockups**
 
@@ -37,7 +37,7 @@ A physical fitness RPG application that rewards users with a level up system.
 
 **Getting Started**
 
-Npm init followed by NPM install for getting all dependicies. 
+Npm init followed by NPM install for getting all dependicies.
 
 **Team Members**
 
