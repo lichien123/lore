@@ -34,18 +34,15 @@
 
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Home</li>
-        <!-- <li class="breadcrumb-item"><a href="#">About</a></li> -->
-        <!-- <li class="breadcrumb-item"><a href="profile.html">User Page</a></li> -->
-        <li class="breadcrumb-item" id="login"><a href="login.html">Login</a></li>
-        <li class="breadcrumb-item" id="signup"><a href="signup.html">Sign-Up</a></li>
+        <li class="breadcrumb-item" id="login"><a href="/login">Login</a></li>
+        <li class="breadcrumb-item" id="signup"><a href="/signup">Sign-Up</a></li>
       </ol>
     </nav>
 
     <div class="jumbotron lore-header gradient">
       <div class="container">
         <h1>Lore</h1>
-        <p> Physical fitness RPG application that increses a user's stats as they interact with the application.</p>
+        <h3 class="lekton">Physical fitness RPG application that increses a user's stats as they interact with the application.</h3>
       </div>
     </div>
     <!-- Example row of columns -->
@@ -53,52 +50,28 @@
     <div class="row">
       <div class="col-md-4 lore-card-margin">
         <div class="card lore-card-width" style="width: 22rem;">
-          <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
+          <img class="card-img-top lore-card-content img-size" src="./img/titan3.png" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 id="get-titan" class="card-title lore-btn-bg"><a href="/titan">Titan</a></h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="lore-btn-txt">Dropdown button</span>
-              </button>
-              <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
-                <p class="lore-dropdown-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
+            <h5 id="get-titan" class="card-title lore-btn-bg"><a class="link-color" href="/titan">Titan</a></h5>
+            <p class="card-text lore-card-text">Much like a giant in appearance. You are powerful, sturdy, and your physical achievements cannot be ignored. Optimus Prime in flesh.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 lore-card-margin">
         <div class="card lore-card-width" style="width: 22rem;">
-          <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
+          <img class="card-img-top lore-card-content img-size" src="./img/hunter3.png" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title lore-btn-bg"><a href="/hunter">Hunter</a></h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="lore-btn-txt">Dropdown button</span>
-              </button>
-              <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
-                <p class="lore-dropdown-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
+            <h5 class="card-title lore-btn-bg"><a class="link-color" href="/hunter">Hunter</a></h5>
+            <p class="card-text lore-card-text">Nimble, with a lean physique. You love the rush of the chase, and you understand the importance of instinct and calcution.</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 lore-card-margin">
         <div class="card lore-card-width" style="width: 22rem;">
-          <img class="card-img-top lore-card-content" src="http://via.placeholder.com/250x250" alt="Card image cap">
+          <img class="card-img-top lore-card-content img-size" src="./img/assasin3.png" alt="Card image cap">
           <div class="card-body lore-card-content">
-            <h5 class="card-title lore-btn-bg"><a href="/assasin">Assassin</a></h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle lore-dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="lore-btn-txt">Dropdown button</span>
-              </button>
-              <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
-                <p class="lore-dropdown-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
+            <h5 class="card-title lore-btn-bg"><a class="link-color" href="/assasin">Assassin</a></h5>
+            <p class="card-text lore-card-text">Versatile, cunning, and willing to take calculated risks. Perfect for the casual character who understands the link between mind and body.</p>
           </div>
         </div>
       </div>
@@ -114,7 +87,7 @@
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
-        <h5><a class="btn lore-btn-bg sign-up-btn trigger" href="#" role="button">Sign Up</a></h5>
+        <h5><a class="btn lore-btn-bg sign-up-btn" href="/signup" role="button">Sign Up</a></h5>
       </div>
       <div class="col-md-4">
       </div>

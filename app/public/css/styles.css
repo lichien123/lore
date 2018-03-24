@@ -24,6 +24,15 @@ p {
 
 nav li {
   font-family: 'Lekton', sans-serif;
+  margin-right: 10px;
+}
+
+.lekton {
+  font-family: 'Lekton', sans-serif;
+}
+
+.lore-card-text {
+  font-size: 20px;
 }
 
 .gradient {
@@ -46,6 +55,28 @@ nav li {
       Lavender,
       Aquamarine 70%
     );
+}
+
+.img-size {
+  width: 350px;
+  height: 350px;
+}
+
+.link-color {
+  color: white;
+}
+
+.login-container {
+  width: 400px;
+  height: 400px;
+  margin-left: 22em;
+  margin-right: 20em;
+  margin-top: 5em;
+  /* margin-bottom: 5em; */
+}
+
+.login-container h1 {
+  font-size: 20px;
 }
 
 .lore-btn-bg {
