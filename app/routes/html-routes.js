@@ -1,5 +1,6 @@
 
 var path = require("path");
+var $ = require("jquery");
 
 module.exports = function(app) {
 
