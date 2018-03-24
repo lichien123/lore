@@ -1,6 +1,4 @@
-////////////////////////////////////////////////
-//CREATES TRACKS MODEL DATA SO WE CAN PUT IT IN MYSQL//
-////////////////////////////////////////////////
+
 
 module.exports = function(sequelize, DataTypes) {
   var Tracks = sequelize.define("Tracks", {

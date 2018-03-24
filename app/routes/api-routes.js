@@ -1,8 +1,3 @@
-//////////////////////////////////////////////////////
-//THESE ROUTES ALLOW US TO CRUD(aka manipulate) DATA//
-//////////////////////////////////////////////////////
-
-//require the model for storing data
 var model = require("../models/loreModel.js");
 
 var express = require("express");
@@ -22,7 +17,7 @@ module.exports = function(app, passport) {
 app.get('/login', function(req, res) {
 
 // render the page and pass in any flash data if it exists
-res.render('login.html', { message: req.flash('loginMessage') });
+  res.render('login.html', { message: req.flash('loginMessage') });
 });
 
 // process the login form
@@ -63,18 +58,18 @@ app.post('/signup', passport.authenticate('local-signup', {
 // we will want this protected so you have to be logged in to visit
 // we will use route middleware to verify this (the isLoggedIn function)
 app.get('/profile', isLoggedIn, function(req, res) {
-res.render('profile.html', {
+  res.render('profile.html', {
   user : req.user // get the user out of session and pass to template
-});
+  });
 });
 
 // =====================================
 // LOGOUT ==============================
 // =====================================
 app.get('/logout', function(req, res) {
-req.logout();
-res.redirect('/');
-});
+  req.logout();
+  res.redirect('/');
+  });
 };
 
 // route middleware to make sure
@@ -85,16 +80,14 @@ if (req.isAuthenticated())
 return next();
 
 // if they aren't redirect them to the home page
-res.redirect('/');
+  res.redirect('/');
 }
 
 
   // GET route for getting all of the posts
-  app.get("/api", function(req, res) {
-    model.userInfo.findAll({})
-      .then(function(dbPost) {
-        res.json(dbPost);
-
-      });
-      // res.json("hi");
-  });
+app.get("/api", function(req, res) {
+  model.userInfo.findAll({})
+    .then(function(dbPost) {
+      res.json(dbPost);
+    });
+});
