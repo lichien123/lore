@@ -27,7 +27,7 @@ res.render('login.html', { message: req.flash('loginMessage') });
 
 // process the login form
 app.post('/login', passport.authenticate('local-login', {
-        successRedirect : '/profile.html', // redirect to the secure profile section
+        successRedirect : '/index2.html', // redirect to the secure profile section
         failureRedirect : '/login.html', // redirect back to the signup page if there is an error
         failureFlash : true // allow flash messages
 }),
@@ -48,15 +48,14 @@ app.post('/login', passport.authenticate('local-login', {
 // show the signup form
 app.get('/signup', function(req, res) {
   // render the page and pass in any flash data if it exists
-  res.render('/signup', { message: req.flash('signupMessage') });
+  res.render('signup.html', { message: req.flash('signupMessage') });
 });
 
 // process the signup form
 app.post('/signup', passport.authenticate('local-signup', {
-  successRedirect : '/', // redirect to the secure profile section
-  failureRedirect : '/signup', // redirect back to the signup page if there is an error
+  successRedirect : '/index2.html', // redirect to the secure profile section
+  failureRedirect : '/signup.html', // redirect back to the signup page if there is an error
   failureFlash : true // allow flash messages
-
 }));
 
 
@@ -88,6 +87,7 @@ return next();
 // if they aren't redirect them to the home page
 res.redirect('/');
 }
+
 
   // GET route for getting all of the posts
   app.get("/api", function(req, res) {
