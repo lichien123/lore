@@ -7,13 +7,11 @@ var path=require("path");
 var passport = require('passport');
 var flash    = require('connect-flash');
 
+//Sets up the Express path
 var app = express();
 var PORT = process.env.PORT || 8080
 
 var db = require("./app/models");
-
-// pass passport for configuration
-require('./app/config/passport')(passport);
 
 // Static directory
 app.use(express.static("app/public"));
@@ -41,6 +39,8 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}))
 //parse an HTML body into a starting
 app.use(bodyParser.text({type: 'text/html'}))
 
+// // Import routes and give the server access to them.
+// var routes = require("./app/controllers/controller.js");
 
 // required for passport
 app.use(session({
@@ -53,8 +53,7 @@ app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
 
 //REQUIRE ROUTES
-require("./app/routes/api-routes.js")(app, passport);
-require("./app/routes/html-routes.js")(app, passport);
+require("./app/routes/html-routes.js")(app);
 require("./app/routes/userpoints-api-routes.js")(app);
 require("./app/routes/tracks-api-routes.js")(app);
 require("./app/routes/userInfo-api-routes.js")(app);
