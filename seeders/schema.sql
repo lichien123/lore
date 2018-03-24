@@ -4,20 +4,18 @@ CREATE DATABASE lore_db;
 
 USE lore_db;
 
-CREATE TABLE test (
-  id INT NOT NULL AUTO_INCREMENT,
-  username VARCHAR(45) NULL,
-  password VARCHAR(45) NULL,
-  class VARCHAR(45) NULL,
-  track VARCHAR(45) NULL,
-  exp INT NULL,
-  level INT NULL,
-  hp INT NULL,
-  str INT NULL,
-  speed INT NULL,
-  stamina INT NULL,
-  PRIMARY KEY (id)
+CREATE TABLE UserInfos (
+id INT NOT NULL AUTO_INCREMENT,
+userName VARCHAR(45) NULL,
+userPassword VARCHAR(45) NULL,
+track VARCHAR(45) NULL,
+exp INT NULL,
+level INT NULL,
+str INT NULL,
+speed INT NULL,
+stamina INT NULL,
+PRIMARY KEY (id)
 );
 
-INSERT INTO test (username, password, class, track, exp, level, hp, str, speed, stamina)
-VALUES ("spongebob", "patty", "titan", "titan", 60, 1, 20, 15, 10, 10);
+INSERT INTO UserInfos (userName, userPassword, track, exp, level, str, speed, stamina)
+VALUES ("spongebob", "userPassword", "warrior", 60, 1, 15, 10, 10);

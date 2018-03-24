@@ -27,9 +27,6 @@ module.exports = function(sequelize, DataTypes) {
 	level: {
 		type: DataTypes.INTEGER
 	},
-	hp: {
-		type: DataTypes.INTEGER
-	},
 	str: {
 		type: DataTypes.INTEGER
 	},
