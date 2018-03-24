@@ -6,8 +6,6 @@ var db = require("../models");
 
 module.exports = function(app) {
 
-  console.log("***UserPoints***: ", db.Points);
-
 // GET route for all userPoints
   app.get("/api/userPoints", function(req, res) {
     db.Points.findAll({})
