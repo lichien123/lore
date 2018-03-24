@@ -3,21 +3,21 @@ $(document).ready(function() {
 
   console.log("Titan Page Loaded.");
 
-  var queryURL = "/api/userinfo";
+  var queryURL = "/api/tracks";
     $.ajax({
       url: queryURL,
       method: "GET"
-    }).done(function(UserInfo) {
-      console.log(UserInfo);
-      console.log(UserInfo[2]);
-      console.log(UserInfo[2].track_description);
-      console.log(UserInfo[2].track_name);
+    }).done(function(Track) {
+      console.log(Track);
+      console.log(Track[2]);
+      console.log(Track[2].track_description);
+      console.log(Track[2].track_name);
 
-      $("#track-name").html(UserInfo[2].track_name);
-      $("#track-desc").html(UserInfo[2].track_description);
-      $("#stretch-vid").html(UserInfo[2].stretch_vid);
-      $("#cardio-vid").html(UserInfo[2].cardio_vid);
-      $("#workout-vid").html(UserInfo[2].workout_vid);
+      $("#track-name").html(Track[2].track_name);
+      $("#track-desc").html(Track[2].track_description);
+      $("#stretch-vid").html(Track[2].stretch_vid);
+      $("#cardio-vid").html(Track[2].cardio_vid);
+      $("#workout-vid").html(Track[2].workout_vid);
 
     })
 
