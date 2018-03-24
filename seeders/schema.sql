@@ -19,5 +19,5 @@ CREATE TABLE test (
   PRIMARY KEY (id)
 );
 
-INSERT INTO Userinfos (userName, userPassword, class, track, exp, level, hp, str, speed, stamina)
+INSERT INTO test (username, password, class, track, exp, level, hp, str, speed, stamina)
 VALUES ("spongebob", "patty", "titan", "titan", 60, 1, 20, 15, 10, 10);
