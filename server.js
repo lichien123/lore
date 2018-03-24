@@ -7,13 +7,11 @@ var path=require("path");
 var passport = require('passport');
 var flash    = require('connect-flash');
 
-//Sets up the Express path
 var app = express();
 var PORT = process.env.PORT || 8080
 
-
-
 var db = require("./app/models");
+
 // pass passport for configuration
 require('./app/config/passport')(passport);
 
@@ -43,8 +41,6 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}))
 //parse an HTML body into a starting
 app.use(bodyParser.text({type: 'text/html'}))
 
-// // Import routes and give the server access to them.
-// var routes = require("./app/controllers/controller.js");
 
 // required for passport
 app.use(session({

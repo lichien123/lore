@@ -1,8 +1,3 @@
-//////////////////////////////////////////////////////
-//THESE ROUTES ALLOW US TO CRUD(aka manipulate) DATA//
-//////////////////////////////////////////////////////
-
-//require the model for storing data
 var db = require("../models");
 
 
@@ -26,8 +21,6 @@ app.post("/api/userPoints", function(req, res) {
   db.UserInfo.create(req.body)
     .then(function(dbUserInfo) {
       res.json(dbUserInfo);
-});
-});
-
-
+    });
+  });
 };
