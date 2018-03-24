@@ -17,6 +17,8 @@ var db = require("./app/models");
 // pass passport for configuration
 require('./app/config/passport')(passport);
 
+require("./app/config/passport")(passport);
+
 // Static directory
 app.use(express.static("app/public"));
 

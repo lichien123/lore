@@ -1,4 +1,3 @@
-
 ///Use this to seed userInfo table. Copy and paste to run query.
 
 INSERT INTO UserInfos (track_name, track_description, stretch_vid, cardio_vid, workout_vid, nutrition_vid)

@@ -1,8 +1,8 @@
-//////////////////////////////////////////////////////
-//THESE ROUTES ALLOW US TO CRUD(aka manipulate) DATA//
-//////////////////////////////////////////////////////
 
-//require the model for storing data
+
+
+
+
 var model = require("../models/loreModel.js");
 
 var express = require("express");
