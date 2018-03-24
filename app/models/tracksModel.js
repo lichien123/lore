@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////
-//CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL//
+//CREATES TRACKS MODEL DATA SO WE CAN PUT IT IN MYSQL//
 ////////////////////////////////////////////////
 
 module.exports = function(sequelize, DataTypes) {

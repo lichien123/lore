@@ -3,21 +3,21 @@ $(document).ready(function() {
 
   console.log("Hunter Page Loaded.");
 
-  var queryURL = "/api/tracks";
+  var queryURL = "/api/userInfo";
     $.ajax({
       url: queryURL,
       method: "GET"
-    }).done(function(Track) {
-      console.log(Track);
-      console.log(Track[1]);
-      console.log(Track[1].track_description);
-      console.log(Track[1].track_name);
+    }).done(function(UserInfo) {
+      console.log(UserInfo);
+      console.log(UserInfo[1]);
+      console.log(UserInfo[1].track_description);
+      console.log(UserInfo[1].track_name);
 
-      $("#track-name").html(Track[1].track_name);
-      $("#track-desc").html(Track[1].track_description);
-      $("#stretch-vid").html(Track[1].stretch_vid);
-      $("#cardio-vid").html(Track[1].cardio_vid);
-      $("#workout-vid").html(Track[1].workout_vid);
+      $("#track-name").html(UserInfo[1].track_name);
+      $("#track-desc").html(UserInfo[1].track_description);
+      $("#stretch-vid").html(UserInfo[1].stretch_vid);
+      $("#cardio-vid").html(UserInfo[1].cardio_vid);
+      $("#workout-vid").html(UserInfo[1].workout_vid);
 
     })
 

@@ -14,7 +14,7 @@ module.exports = function(app) {
 console.log("***UserInfo***: ", db.UserInfo);
 
 // GET route for all userInfo
-app.get("/api/userInfo", function(req, res) {
+app.get("/api/userinfo", function(req, res) {
   db.UserInfo.findAll({})
     .then(function(dbUserInfo) {
       res.json(dbUserInfo);
