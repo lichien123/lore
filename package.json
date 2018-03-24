@@ -33,6 +33,7 @@
     "izimodal": "^1.5.1",
     "jquery": "^3.3.1",
     "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
     "mysql2": "^1.5.3",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
