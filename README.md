@@ -21,7 +21,37 @@ A physical fitness RPG application that rewards users with a level up system.
 
 **Architecture Diagram**
 
-![arch_sketch](app/public/img/arch_sketch.jpeg)
+├── config
+|     └── config.js
+|     └── connection.js
+|     └── passport.js
+|
+├── models
+|     ├── database.js
+|     ├── index.js
+|     ├── loreModel.js
+|     └── tracksModel.js
+├── public
+|     ├── css
+|     |   ├── bootstrap
+|     |   ├── styles.css
+|     |   └── etc.
+|     ├── images
+|     |   ├── contact.png
+|     |   └── etc.
+|     └── js
+|     |   ├── jsLibs
+|     |   ├── userLogin.js
+|     |   └── etc.
+├── routes
+|     ├── api-routes.js
+|     ├── html-routes.js
+|     └── tracks-api-routes.js
+|     └── userInfo-api-routes.js
+├── utilities
+|     ├── trackSeeds.js
+├── package.json
+└── server.js
 
 **UI Mockups**
 
@@ -37,7 +67,7 @@ A physical fitness RPG application that rewards users with a level up system.
 
 **Getting Started**
 
-Npm init followed by NPM install for getting all dependicies. 
+Npm init followed by NPM install for getting all dependicies.
 
 **Team Members**
 
