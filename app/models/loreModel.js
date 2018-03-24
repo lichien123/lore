@@ -1,5 +1,5 @@
   ////////////////////////////////////////////////
- //CREATES MODEL DATA SO WE CAN PUT IT IN MYSQL//
+ //CREATES USERINFO MODEL DATA SO WE CAN PUT IT IN MYSQL//
 ////////////////////////////////////////////////
 
 module.exports = function(sequelize, DataTypes) {
@@ -15,11 +15,23 @@ module.exports = function(sequelize, DataTypes) {
 	userPassword: {
 		type: DataTypes.STRING
 	},
-	class: {
-		type: DataTypes.STRING
+	track_name: {
+		type: DataTypes.TEXT
 	},
-	track: {
-		type: DataTypes.STRING
+	track_description: {
+		type: DataTypes.TEXT
+	},
+	stretch_vid: {
+		type: DataTypes.TEXT
+	},
+	cardio_vid: {
+		type: DataTypes.TEXT
+	},
+	workout_vid: {
+		type: DataTypes.TEXT
+	},
+	nutrition_vid: {
+		type: DataTypes.TEXT
 	},
 	exp: {
 		type: DataTypes.INTEGER
