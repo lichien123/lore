@@ -21,7 +21,7 @@ A physical fitness RPG application that rewards users with a level up system.
 
 **Architecture Diagram**
 
-
+![ui_mu](app/public/img/rch.jpg)
 
 **UI Mockups**
 
