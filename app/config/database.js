@@ -5,6 +5,6 @@ module.exports = {
         'user': 'root',
         'password': 'NEWPASS'
     },
-	'database': 'my_schema',
+	'database': 'lore_db',
     'users_table': 'users'
 };
