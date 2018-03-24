@@ -11,6 +11,7 @@
   <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
+  <link href="../../public/css/animate.css" rel="stylesheet">
 
   <title>Lore</title>
 
@@ -28,13 +29,25 @@
 </head>
 
 <body>
-
   <div class="container">
 
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/index2.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">About</a></li>
+        <li class="breadcrumb-item active" aria-current="page">User Page</li>
         <li class="breadcrumb-item " id="signup"><a href="/">Logout</a></li>
+        <!-- <li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle lore-account-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="lore-btn-txt">Account</span>
+              </button>
+            <div class="dropdown-menu lore-dropdown-window" aria-labelledby="dropdownMenuButton">
+              <p class="lore-dropdown-text logout-btn">Logout</p>
+              <p class="lore-dropdown-text delete-act-btn destroy-act">Delete Account</p>
+            </div>
+          </div>
+        </li> -->
       </ol>
     </nav>
 
@@ -45,12 +58,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <h2 class="text-center" id="track-name"></h2>
-        <div class="row lore-buffer-profile">
-          <div class="col-md-12">
-          </div>
-        </div>
-        <h4 class="text-center lekton" id="track-desc"></h4>
+        <h2 class="text-center profile-animate">Hi. Here's Your Journey.</h2>
       </div>
     </div>
 
@@ -74,16 +82,16 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div id="stretch-vid" class="embed-responsive embed-responsive-4by3">
-              <!-- STRETCH VID -->
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fCsSLb11RUQ?rel=0" allowfullscreen></iframe>
             </div>
           </div>
 
           <div class="col-md-6">
             <div class="card w-150">
               <div class="card-body lore-card-content">
-                <h5 class="card-title text-center">Your stretch video.</h5>
-                <!-- <p class="card-text">Your stretch video.</p> -->
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               </div>
             </div>
           </div>
@@ -100,16 +108,16 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div id="cardio-vid" class="embed-responsive embed-responsive-4by3">
-              <!-- CARDIO VID -->
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fCsSLb11RUQ?rel=0" allowfullscreen></iframe>
             </div>
           </div>
 
           <div class="col-md-6">
             <div class="card w-150">
               <div class="card-body lore-card-content">
-                <h5 class="card-title text-center">Your cardio video.</h5>
-                <!-- <p class="card-text">Your cardio video.</p> -->
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               </div>
             </div>
           </div>
@@ -126,16 +134,16 @@
 
         <div class="row">
           <div class="col-md-4">
-            <div id="workout-vid" class="embed-responsive embed-responsive-4by3">
-              <!-- WORKOUT VID -->
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fCsSLb11RUQ?rel=0" allowfullscreen></iframe>
             </div>
           </div>
 
           <div class="col-md-6">
             <div class="card w-150">
               <div class="card-body lore-card-content">
-                <h5 class="card-title text-center">Your workout video.</h5>
-                <!-- <p class="card-text">Your workout video</p> -->
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               </div>
             </div>
           </div>
@@ -169,7 +177,7 @@
 
     <hr>
 
-    <footer class="lore-footer">
+    <footer class="lore-footer ">
       <p>© Lore 2018</p>
     </footer>
   </div>
@@ -179,14 +187,12 @@
   <!-- Bootstrap core JavaScript
     ================================================== -->
 
-  <!-- <script src="./js/Libraries/jquery-3.3.1.min.js" type="text/javascript"></script> -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="./js/Libraries/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="./js/Libraries/iziModal.min.js" type="text/javascript"></script>
   <script src="./js/Libraries/uranium.js" type="text/javascript"></script>
-  <script src="./js/assasin.js" type="text/javascript"></script>
+  <script src="./js/modal.js"></script>
 
 </body>
 
