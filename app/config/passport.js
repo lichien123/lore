@@ -1,6 +1,3 @@
-// config/passport.js
-
-// load all the things we need
 var LocalStrategy   = require('passport-local').Strategy;
 
 // load up the user model
@@ -13,6 +10,9 @@ connection.query('USE ' + dbconfig.database);
 // expose this function to our app using module.exports
 module.exports = function(passport) {
 
+    // =========================================================================
+    // passport session setup ==================================================
+    // =========================================================================
     // required for persistent login sessions
     // passport needs ability to serialize and unserialize users out of session
 
