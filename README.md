@@ -13,7 +13,7 @@ Object Oriented Coding.
 
 ### Screenshot
 
-![s-](/Users/taqwarushdan/Sites/lore/app/public/img/ss-1.jpg)
+![screenshot](/app/public/img/ss-1.jpg)
 
 ### How to Use
 
