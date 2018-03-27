@@ -103,7 +103,7 @@ Here is how we accessed data in our homemade API, and parsed it out to our clien
 - The package.json file includes all environment dependicies that you'd need to run the app locally. 
   - Step 1: Fork this repository and clone it to your local environment.
   - Step 2: Navigate to the cloned repo/folder and run `npm init`. Once the repo is initialized, run `npm install`. This will download all of the necessary dependencies.
-  - Step 3: run node server.js, navigate to ***localhost:8080*** on your favorite web browser, and the application should be up and running.
+  - Step 3: run node app/create_database.js, run node server.js, navigate to ***localhost:8080*** on your favorite web browser, and the application should be up and running.
   - Step 4: navigate to `/api/tracks` to view the API!
   - Step 5 (bonus): Open the files in your favorite text editor and customize the application even more!
 
