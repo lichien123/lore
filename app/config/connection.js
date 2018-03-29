@@ -1,27 +1,19 @@
-  ////////////////////////////////
- //INITIATE CONNECTION TO MYSQL//
-////////////////////////////////
-const Sequelize = require('sequelize');
-const sequelize = new Sequelize('lore_db', 'root', 'NEWPASS', {
-  host: 'localhost',
-  dialect: 'mysql',
-  operatorsAliases: false,
+var mysql = require('mysql');
+var connection;
 
-  pool: {
-    max: 5,
-    min: 0,
-    acquire: 30000,
-    idle: 10000
-  },
-});
+if(process.env.JAWSDB_URL) {
+  //Heroku deployment
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+  //local host
+    connection = mysql.createConnection({
+        root: root,
+        host: "ixqxr3ajmyapuwmi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        user: "qmkrpgw1hwefdh50	",
+        password: "pwrzexrcwoa2kmz4",
+        database: "lore_db",
+    });
+};
 
-sequelize
-  .authenticate()
-  .then(() => {
-    console.log('Connection has been established successfully.');
-  })
-  .catch(err => {
-    console.error('Unable to connect to the database:', err);
-  });
-
-module.exports = sequelize;
+connection.connect();
+module.exports = connection;
