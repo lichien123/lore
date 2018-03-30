@@ -9,7 +9,7 @@ if(process.env.JAWSDB_URL) {
     connection = mysql.createConnection({
         root: root,
         host: "ixqxr3ajmyapuwmi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-        user: "qmkrpgw1hwefdh50	",
+        user: "qmkrpgw1hwefdh50",
         password: "pwrzexrcwoa2kmz4",
         database: "lore_db",
     });
