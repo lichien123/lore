@@ -21,6 +21,7 @@ Object Oriented Coding.
 2. <u>Sign Up/Login:</u> Users can only see each track's details once they are logged in. Once a user clicks a track, they will be prompted to either sign up or login. 
    1. On sign up, the user's information is posted to the Lore database.
 3. <u>Track's Page:</u> Each track page is populated via the Lore API, dynamically, on page load. At the top of each track page, there is a points tab, which shows the user their the points that they have earned.
+4. Our project is deployed here: https://radiant-headland-41548.herokuapp.com/
 
 ### Key Technologies Used
 
