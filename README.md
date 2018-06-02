@@ -1,29 +1,21 @@
 # Lore
-**Description**
+### **Description**
 
-A physical fitness RPG application that rewards users with a level up system.
+Lore is a a physical fitness RPG application that rewards users with a level up system. It streamlines workout, cardio and stretching routines for users and makes it easier for them to train towards specific traits such as speed, strength and stamina.
 
-**Key Features**
+### Motivation
 
-- User database
-- Personalized workout API
-- RPG game themed
+Recognizing the negative perceptions often associated with workout culture, Lore aims to be a more inclusive approach to staying fit. By creating an RPG themed fitness quest, we make working out more approachable for everyday individuals, by making it as fun as playing a video game. Accessibility is important to us, we included track options for those who face mobility constraints, but still want to grow and maintain areas like strength and stamin.
 
-**Tech Used**
+### Code Style
 
-- Node.js
-- Sequelize
-- MySQL
-- Express
-- Express-handlebars
-- Body-Parser
-- .env
+Object Oriented Coding.
 
-**Architecture Diagram**
+### Screenshot
 
 ![screenshot](/app/public/img/ss-1.jpg)
 
-**UI Mockups**
+### How to Use
 
 1. <u>Landing page</u>: Lists all track options.
 2. <u>Sign Up/Login:</u> Users can only see each track's details once they are logged in. Once a user clicks a track, they will be prompted to either sign up or login.
@@ -31,19 +23,29 @@ A physical fitness RPG application that rewards users with a level up system.
 3. <u>Track's Page:</u> Each track page is populated via the Lore API, dynamically, on page load. At the top of each track page, there is a points tab, which shows the user their the points that they have earned.
 4. Our project is deployed here: https://radiant-headland-41548.herokuapp.com/
 
-**API Docs**
+### Key Technologies Used
 
-[To Be Completed]
+- Node.js — application's main server.
+- Express.js — pages routes (GET and POST).
+- Sequelize — Dynamically created Tracks table and User Info table.
+- MySQL — Passport.js data.
+- Uranium.js — Tabs feature on track page (UI).
+- Bootstrap — bare bones page skeleton.
+- jQuery — All events and dynamic HTML elements.
+- Passport.js — Registration and Login.
 
-**DB**
+### **Key Features**
 
-![db_sketch](app/public/img/db_sketch.jpeg)
+- Database that tracks registration and a user's selected track
+- Personalized workout API for each archetype track (Titan, Hunter, Assasin)
+- Level Up feature that allows user's to graduate to a new track once they meet their fitness goals.
 
-**Getting Started**
+### Code Example
 
-Npm init followed by NPM install for getting all dependicies. 
+Here is how we accessed data in our homemade API, and parsed it out to our client-side code.
 
-**Team Members**
+```javascript
+  $(document).ready(function() {
 
   console.log("Assasin Page Loaded.");
 
