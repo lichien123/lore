@@ -38,18 +38,4 @@ var titan = new Track("Titan", "Much like a giant in appearance. You are powerfu
 titan.addTrackContent("https://www.youtube.com/watch?v=RVq0X3XnKmE", "https://www.youtube.com/watch?v=qzymPet0Fl4", "https://www.youtube.com/watch?v=H_gU_cgyWt8", "https://www.youtube.com/watch?v=xxP5qb89prg");
 
 
-//
-// $(function() {
-//
-//   $(".get-assassin").on("click", function(event) {
-//     console.log(assassin);
-//   })
-//
-// });
-
-
-$(document).ready(function() {
-
-
-
-});
+$(document).ready(function() { });

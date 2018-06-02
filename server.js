@@ -39,8 +39,6 @@ app.use(bodyParser.raw({type: 'application/vnd.custom-type'}))
 //parse an HTML body into a starting
 app.use(bodyParser.text({type: 'text/html'}))
 
-// // Import routes and give the server access to them.
-// var routes = require("./app/controllers/controller.js");
 
 // required for passport
 app.use(session({

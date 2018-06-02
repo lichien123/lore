@@ -72,7 +72,6 @@ nav li {
   margin-left: 22em;
   margin-right: 20em;
   margin-top: 5em;
-  /* margin-bottom: 5em; */
 }
 
 .login-container h1 {
@@ -187,7 +186,6 @@ nav li {
 @media only screen and (min-width : 992px) and (max-width : 1196px) {
 
   .lore-card-width {
-    /* width: 14rem !important; */
     width: 18rem !important;
   }
 
@@ -206,7 +204,7 @@ nav li {
 
   .lore-dropdown-btn {
     margin-left: 0;
-}
+  }
 
 }
 
@@ -250,10 +248,10 @@ nav li {
 [data-ur-tabs-component="content"] {
   display: none;
 }
+
 [data-ur-tabs-component="content"][data-ur-state="enabled"] {
   display: block;
 }
-
 
 .lore-tabs {
   margin-top: 2em;
